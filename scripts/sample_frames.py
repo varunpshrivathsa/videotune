@@ -3,6 +3,8 @@ from __future__ import annotations
 from pathlib import Path
 import cv2
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+VIDEO_PATH = PROJECT_ROOT / "data" / "video" / "video0.mp4"
 
 def sample_frames(
     video_path: Path,
@@ -51,7 +53,7 @@ def sample_frames(
 
 
 def main() -> None:
-    vp = Path("data/video/video0.mp4")
+    vp = VIDEO_PATH
     frames = sample_frames(vp, target_fps=1.0, max_frames=32)
     print(f"Sampled frames: {len(frames)}")
     if frames:

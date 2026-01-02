@@ -8,8 +8,11 @@ from PIL import Image
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+VIDEO_PATH = PROJECT_ROOT / "data" / "video" / "video0.mp4"
+
 def main():
-    video_path = Path("data/video/video0.mp4")
+    video_path = VIDEO_PATH
 
     # 1) Read the very first frame
     cap = cv2.VideoCapture(str(video_path))
