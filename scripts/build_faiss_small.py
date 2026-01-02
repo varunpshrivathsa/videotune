@@ -40,9 +40,9 @@ def main() -> None:
     with open(OUT_IDMAP, "w") as f:
         json.dump({"video_ids": ids}, f)
 
-    print(f"✅ Built FAISS index: {OUT_INDEX}")
+    print(f"Built FAISS index: {OUT_INDEX}")
     print(f"   ntotal={index.ntotal}, dim={d}")
-    print(f"✅ Saved id map: {OUT_IDMAP}")
+    print(f"Saved id map: {OUT_IDMAP}")
 
 
 if __name__ == "__main__":

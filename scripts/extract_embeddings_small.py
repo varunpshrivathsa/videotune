@@ -117,7 +117,7 @@ def main() -> None:
     with open(OUT_IDS, "w") as f:
         json.dump(video_ids, f)
 
-    print("\n✅ Saved:")
+    print("\nSaved:")
     print(" -", OUT_EMB, "shape=", X.shape, "dtype=", X.dtype)
     print(" -", OUT_IDS, "len=", len(video_ids))
 
