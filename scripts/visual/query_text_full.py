@@ -11,7 +11,7 @@ import torch
 import clip
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 META_CSV = PROJECT_ROOT / "data" / "processed" / "metadata.csv"
 INDEX_PATH = PROJECT_ROOT / "data" / "index" / "video_full.index"

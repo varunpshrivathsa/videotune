@@ -5,7 +5,7 @@ import json
 import numpy as np
 import faiss
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 EMB_PATH = PROJECT_ROOT / "data" / "embeddings" / "full" / "video_emb.npy"
 IDS_PATH = PROJECT_ROOT / "data" / "embeddings" / "full" / "video_ids.json"

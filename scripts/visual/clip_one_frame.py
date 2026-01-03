@@ -8,7 +8,7 @@ from PIL import Image
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 VIDEO_PATH = PROJECT_ROOT / "data" / "video" / "video0.mp4"
 
 def main():

@@ -12,7 +12,7 @@ from PIL import Image
 
 
 # ---------- Paths ----------
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 META_CSV = PROJECT_ROOT / "data" / "processed" / "metadata.csv"
 
 OUT_ROOT = PROJECT_ROOT / "data" / "embeddings" / "full"
