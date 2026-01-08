@@ -70,7 +70,9 @@ def main() -> None:
     df = pd.read_csv(MAP_CSV)
     # Your CSV currently has ../.. paths; normalize to absolute paths from project root
     # If your video_path is already "data/video/xxx.mp4", this also works.
-    df["video_path_abs"] = df["video_path"].apply(lambda p: (PROJECT_ROOT / Path(p)).resolve())
+    df["video_path_abs"] = df["video_path"].apply(
+        lambda p: PROJECT_ROOT / p
+    )
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print("Device:", device)
