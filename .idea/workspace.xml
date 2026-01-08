@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75fb1854-e0fc-4454-b7e7-bc50ee212be0" name="Changes" comment="Pulled Captions from MSR-VTT (Hugging Face) and saved in data/caption" />
+    <list default="true" id="75fb1854-e0fc-4454-b7e7-bc50ee212be0" name="Changes" comment="Checked for caption and video alignment">
+      <change afterPath="$PROJECT_DIR$/scripts/vid/03_create_caption_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +57,8 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.01_load_captions.executor": "Run",
+    "Python.02_verify_video_text_alignment.executor": "Run",
+    "Python.03_create_caption_map.executor": "Run",
     "Python.build_metadata_msrvtt.executor": "Run",
     "Python.clip_one_frame.executor": "Run",
     "Python.clip_video_embedding.executor": "Run",
@@ -108,7 +113,8 @@
       <workItem from="1767396188141" duration="4857000" />
       <workItem from="1767470448200" duration="202000" />
       <workItem from="1767833962008" duration="1073000" />
-      <workItem from="1767835041710" duration="2568000" />
+      <workItem from="1767835041710" duration="2935000" />
+      <workItem from="1767887706640" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="Basic EDA on MSRVTT Dataset. Saved CSV file in Processed Folder">
       <option name="closed" value="true" />
@@ -126,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767837321705</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Checked for caption and video alignment">
+      <option name="closed" value="true" />
+      <created>1767837846840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767837846840</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +166,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic EDA on MSRVTT Dataset. Saved CSV file in Processed Folder" />
     <MESSAGE value="Pulled Captions from MSR-VTT (Hugging Face) and saved in data/caption" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pulled Captions from MSR-VTT (Hugging Face) and saved in data/caption" />
+    <MESSAGE value="Checked for caption and video alignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checked for caption and video alignment" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/videotune$clip_one_frame.coverage" NAME="clip_one_frame Coverage Results" MODIFIED="1767376296053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
@@ -160,5 +175,6 @@
     <SUITE FILE_PATH="coverage/videotune$01_load_captions.coverage" NAME="01_load_captions Coverage Results" MODIFIED="1767837266188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts/vid" />
     <SUITE FILE_PATH="coverage/videotune$clip_video_embedding.coverage" NAME="clip_video_embedding Coverage Results" MODIFIED="1767323072949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/videotune$build_metadata_msrvtt.coverage" NAME="build_metadata_msrvtt Coverage Results" MODIFIED="1767376309397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/videotune$02_verify_video_text_alignment.coverage" NAME="02_verify_video_text_alignment Coverage Results" MODIFIED="1767837815704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts/vid" />
   </component>
 </project>
