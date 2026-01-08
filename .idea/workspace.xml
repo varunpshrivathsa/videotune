@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75fb1854-e0fc-4454-b7e7-bc50ee212be0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/audio/build_faiss_full.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/audio/build_faiss_full_valid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/audio/extract_audio_wavs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/audio/extract_embeddings_full.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/audio/query_audio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/audio/query_audio_valid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/audio/query_faiss_full.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/build_faiss_full.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/build_faiss_small.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/build_metadata_msrvtt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/clip_one_frame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/clip_video_embedding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/extract_embeddings_full.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/extract_embeddings_small.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/inspect_results_small.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/probe_video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/query_faiss_small.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/query_full.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/query_text_full.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/visual/sample_frames.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;varunpshrivathsa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:varunpshrivathsa/videotune.git&quot;,
+    &quot;accountId&quot;: &quot;9a3e476b-9ec4-4218-81cd-6e72a6ad13aa&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="37g9DOuXWOtAPL8WZrTCZ6yh3dx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.build_metadata_msrvtt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clip_one_frame.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clip_video_embedding.executor&quot;: &quot;Run&quot;,
+    &quot;Python.probe_video.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/varun/Desktop/Work/Projects/Personal/videotune&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts/visual" />
+      <recent name="$PROJECT_DIR$/scripts/vision" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.142" />
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75fb1854-e0fc-4454-b7e7-bc50ee212be0" name="Changes" comment="" />
+      <created>1767313726647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767313726647</updated>
+      <workItem from="1767313727675" duration="1007000" />
+      <workItem from="1767316768810" duration="6947000" />
+      <workItem from="1767376009682" duration="1594000" />
+      <workItem from="1767377610439" duration="441000" />
+      <workItem from="1767378058230" duration="209000" />
+      <workItem from="1767378273161" duration="8615000" />
+      <workItem from="1767396188141" duration="4857000" />
+      <workItem from="1767470448200" duration="202000" />
+      <workItem from="1767833962008" duration="486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/videotune$clip_one_frame.coverage" NAME="clip_one_frame Coverage Results" MODIFIED="1767376296053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/videotune$probe_video.coverage" NAME="probe_video Coverage Results" MODIFIED="1767376321338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/videotune$clip_video_embedding.coverage" NAME="clip_video_embedding Coverage Results" MODIFIED="1767323072949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/videotune$build_metadata_msrvtt.coverage" NAME="build_metadata_msrvtt Coverage Results" MODIFIED="1767376309397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+  </component>
+</project>

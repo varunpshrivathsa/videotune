@@ -1,35 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-*.so
-*.egg-info/
-dist/
-build/
-
-# Virtual env
+# local env
 .venv/
-.env
-
-# Notebooks
-.ipynb_checkpoints/
-
-# Editors
-.vscode/
-.idea/
-
-# Data / outputs (do not commit)
-data/
-datasets/
-outputs/
-runs/
-checkpoints/
-logs/
-
-# Models
-*.pt
-*.pth
-*.onnx
-*.ckpt
-
-# OS
+__pycache__/
+*.pyc
 .DS_Store
+
+# big data - keep locally
+data/video/
