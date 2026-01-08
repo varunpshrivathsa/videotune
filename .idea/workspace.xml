@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75fb1854-e0fc-4454-b7e7-bc50ee212be0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/audio/build_faiss_full.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/audio/build_faiss_full_valid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/audio/extract_audio_wavs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/audio/extract_embeddings_full.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/audio/query_audio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/audio/query_audio_valid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/audio/query_faiss_full.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/build_faiss_full.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/build_faiss_small.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/build_metadata_msrvtt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/clip_one_frame.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/clip_video_embedding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/extract_embeddings_full.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/extract_embeddings_small.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/inspect_results_small.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/probe_video.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/query_faiss_small.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/query_full.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/query_text_full.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/visual/sample_frames.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/vid/vid_eda.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -71,33 +52,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.build_metadata_msrvtt.executor&quot;: &quot;Run&quot;,
-    &quot;Python.clip_one_frame.executor&quot;: &quot;Run&quot;,
-    &quot;Python.clip_video_embedding.executor&quot;: &quot;Run&quot;,
-    &quot;Python.probe_video.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/varun/Desktop/Work/Projects/Personal/videotune&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.build_metadata_msrvtt.executor": "Run",
+    "Python.clip_one_frame.executor": "Run",
+    "Python.clip_video_embedding.executor": "Run",
+    "Python.probe_video.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/varun/Desktop/Work/Projects/Personal/videotune",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scripts/visual" />
@@ -127,7 +109,8 @@
       <workItem from="1767378273161" duration="8615000" />
       <workItem from="1767396188141" duration="4857000" />
       <workItem from="1767470448200" duration="202000" />
-      <workItem from="1767833962008" duration="486000" />
+      <workItem from="1767833962008" duration="1073000" />
+      <workItem from="1767835041710" duration="575000" />
     </task>
     <servers />
   </component>
