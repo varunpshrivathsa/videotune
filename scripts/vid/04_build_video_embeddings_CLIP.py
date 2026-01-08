@@ -25,7 +25,7 @@ IDMAP_JSON = OUT_DIR / "video_clip_train7k_idmap.json"
 
 
 MODEL_NAME = "openai/clip-vit-base-patch32"
-NUM_FRAMES = 8
+NUM_FRAMES = 16
 BATCH_FRAMES = 64  # frames per batch for CLIP (adjust if OOM)
 
 
@@ -142,7 +142,7 @@ def main() -> None:
         frames = per_video_frame_embs[i]
         if len(frames) == 0:
             raise RuntimeError(f"No frame embeddings collected for {vid}")
-        v = np.mean(np.stack(frames, axis=0), axis=0).astype("float32")
+        v = np.max(np.stack(frames, axis=0), axis=0).astype("float32")
         # normalize again
         v = v / np.linalg.norm(v)
         video_ids.append(vid)
